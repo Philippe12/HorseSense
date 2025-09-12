@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f18e9cf6-8519-4493-9888-bebeac60f18c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 81.28 35.56)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f5da0f7-32d4-4c35-9e09-eaff048f43d5")
+		(property "Sheetname" "MCU"
+			(at 81.28 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 81.28 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 147.32)
+		(size 45.72 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fcaec40-379c-49eb-807f-b8caccf6fb22")
+		(property "Sheetname" "power"
+			(at 87.63 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 87.63 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 110.49)
+		(size 45.72 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dd56066-f1cf-4fdc-93cd-5defccfe7df4")
+		(property "Sheetname" "GPS"
+			(at 87.63 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 87.63 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 73.66)
+		(size 46.99 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea6c1ed7-481e-430a-be6f-6eac0865153a")
+		(property "Sheetname" "capteur"
+			(at 85.09 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "capteur.kicad_sch"
+			(at 85.09 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
