@@ -1896,9 +1896,31 @@
 			)
 		)
 	)
+	(global_label "PSEL_BAT"
+		(shape output)
+		(at 77.47 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28083963-fc05-4eb2-aca3-f69da0a1a13c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.5344 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ICM_AD0"
 		(shape output)
-		(at 99.06 113.03 180)
+		(at 76.2 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1908,7 +1930,7 @@
 		)
 		(uuid "28865dbb-fbad-4259-89bd-6ba122a9db51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.2129 113.03 0)
+			(at 65.3529 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,6 +1975,28 @@
 		(uuid "45db57fa-0405-4ae8-b808-7547e4de8c3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.8781 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT_BAT"
+		(shape input)
+		(at 78.74 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f458b1f-e8b5-45ff-9e88-5b199eb808e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.5581 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,6 +2063,28 @@
 		(uuid "78e8c7ea-3d3d-47ac-8552-fcd981118571")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.8973 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CE_BAT"
+		(shape output)
+		(at 77.47 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ca3acd4-9ace-49f9-a5d1-5344b0041ad0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.772 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,8 +2161,8 @@
 		)
 	)
 	(global_label "SCL"
-		(shape input)
-		(at 99.06 118.11 180)
+		(shape output)
+		(at 104.14 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2106,7 +2172,7 @@
 		)
 		(uuid "967ffd15-ddca-4c76-a9e2-3dbfc71873fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5672 118.11 0)
+			(at 97.6472 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2184,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 99.06 115.57 180)
+		(at 104.14 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2128,7 +2194,7 @@
 		)
 		(uuid "a41071fc-cd7a-4916-9200-54cdce85cfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.3954 115.57 0)
+			(at 96.4754 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,6 +2529,76 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/4f5da0f7-32d4-4c35-9e09-eaff048f43d5"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e2cf508-5d0f-45ba-8196-cec2ac7fde59")
+		(property "Reference" "R6"
+			(at 119.38 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.062 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc6a5a64-75fd-48e2-91f1-1724294bce22")
+		)
+		(pin "1"
+			(uuid "e422b24a-e00a-4eb0-968d-db38c4beea96")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/4f5da0f7-32d4-4c35-9e09-eaff048f43d5"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2886,6 +3022,76 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/4f5da0f7-32d4-4c35-9e09-eaff048f43d5"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c027df9-9ad6-4b7e-b20e-3771cb973805")
+		(property "Reference" "R5"
+			(at 110.49 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 110.49 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.172 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "646ff05a-4003-4f40-abfe-d318f973c148")
+		)
+		(pin "1"
+			(uuid "c316e2fe-7d6b-4896-9e60-669af6ea8333")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/4f5da0f7-32d4-4c35-9e09-eaff048f43d5"
+					(reference "R5")
 					(unit 1)
 				)
 			)
