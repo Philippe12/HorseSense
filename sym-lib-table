@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "2025-09-12_09-49-28")(type "KiCad")(uri "${KIPRJMOD}/lib/2025-09-12_09-49-28.kicad_sym")(options "")(descr ""))
+  (lib (name "LC76G")(type "KiCad")(uri "${KIPRJMOD}/lib/LC76G.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/lib/ICM-42670-P.kicad_sym")(options "")(descr ""))
+  (lib (name "VEMD8080")(type "KiCad")(uri "${KIPRJMOD}/lib/VEMD8080.kicad_sym")(options "")(descr ""))
 )
