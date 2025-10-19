@@ -13812,15 +13812,15 @@
 			(uuid "f4ce88c3-0775-4793-8aed-26f175d52d3c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
+		(model "${KIPRJMOD}/lib/0734120110.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1.25)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
