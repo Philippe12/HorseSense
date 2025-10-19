@@ -3903,6 +3903,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "VEMD8080"
+			(at 167.64 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "VEMD8080"
+			(at 167.64 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d036be73-e7a9-4cfa-ae82-e5052fbf4c35")
 		)
@@ -4055,6 +4073,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4573501-4d72-4a9a-a091-a4158e66ab2f")
 		)
@@ -4125,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B105KAFNFNE"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -4135,6 +4162,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B105KAFNFNE"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -4213,7 +4249,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B106KPQNNNE"
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -4223,6 +4259,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B106KPQNNNE"
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -4301,7 +4346,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B104KBCNNNC"
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -4311,6 +4356,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B104KBCNNNC"
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -4351,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Value" "CT DBLP31.12-5C8C-56-J6Q6"
+		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 196.342 130.556 0)
 			(effects
 				(font
@@ -4387,6 +4441,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+			(at 199.39 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -4625,7 +4697,7 @@
 				)
 			)
 		)
-		(property "Value" "CT DBLP31.12-5C8C-56-J6Q6"
+		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 186.182 130.556 0)
 			(effects
 				(font
@@ -4661,6 +4733,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+			(at 189.23 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 189.23 130.81 0)
 			(effects
 				(font
@@ -4730,6 +4820,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "MAX86141ENP+T"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MAX86141ENP+T"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -5154,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Value" "CT DBLP31.12-5C8C-56-J6Q6"
+		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 207.772 130.556 0)
 			(effects
 				(font
@@ -5190,6 +5298,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
 			(at 210.82 130.81 0)
 			(effects
 				(font
@@ -5268,7 +5394,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B106KPQNNNE"
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -5278,6 +5404,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B106KPQNNNE"
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -5397,6 +5532,24 @@
 				(hide yes)
 			)
 		)
+		(property "manf#" "VEMD8080"
+			(at 144.78 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "VEMD8080"
+			(at 144.78 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "93557796-5afa-421b-8e0a-db239d91d655")
 		)
@@ -5485,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CC0805JRNPO9BN100"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -5495,6 +5648,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CC0805JRNPO9BN100"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -5903,7 +6065,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "GRM21BZ71A226ME15L"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -5913,6 +6075,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -6057,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "GRM21BZ71A226ME15L"
 			(at 82.55 107.95 0)
 			(effects
 				(font
@@ -6067,6 +6238,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
 			(at 82.55 107.95 0)
 			(effects
 				(font
@@ -6180,6 +6360,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "ICM-42670-P"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "ICM-42670-P"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6355,7 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B225KAFNNNE"
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -6365,6 +6563,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B225KAFNNNE"
 			(at 140.97 29.21 0)
 			(effects
 				(font

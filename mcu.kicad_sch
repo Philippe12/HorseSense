@@ -3782,7 +3782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXB0304RUT"
+		(property "Value" "TXB0304RUTR"
 			(at 75.8033 162.56 0)
 			(effects
 				(font
@@ -3810,6 +3810,24 @@
 			)
 		)
 		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "TXB0304RUTR"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TXB0304RUTR"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -4116,7 +4134,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1825910-6"
+		(property "manf#" "EVQ-P7A01P"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -4126,6 +4144,15 @@
 			)
 		)
 		(property "gp" "1825910-6"
+			(at 44.45 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "EVQ-P7A01P"
 			(at 44.45 62.23 90)
 			(effects
 				(font
@@ -4402,6 +4429,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RK73H2ATTD1002F"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc6a5a64-75fd-48e2-91f1-1724294bce22")
 		)
@@ -4536,7 +4581,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC1206FR-0710KL"
+		(property "manf#" "RK73H2ATTD1002F"
 			(at 31.75 54.61 0)
 			(effects
 				(font
@@ -4546,6 +4591,15 @@
 			)
 		)
 		(property "gp" "RC1206FR-0710KL"
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "RK73H2ATTD1002F"
 			(at 31.75 54.61 90)
 			(effects
 				(font
@@ -4840,6 +4894,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "ESP32-S3-WROOM-1-N16R8"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "38"
 			(uuid "f2e11964-2e85-4e50-92f2-ce15fdbd00d8")
 		)
@@ -5093,6 +5156,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ae3a592-9755-41a7-82ec-0d187767b1ef")
 		)
@@ -5161,6 +5233,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RK73H2ATTD1002F"
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -5569,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B104KBCNNNC"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -5579,6 +5669,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B104KBCNNNC"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -5657,7 +5756,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B104KBCNNNC"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -5667,6 +5766,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B104KBCNNNC"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -5877,7 +5985,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B104KBCNNNC"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -5887,6 +5995,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B104KBCNNNC"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -5965,7 +6082,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "CL21B105KAFNFNE"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -5975,6 +6092,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "CL21B105KAFNFNE"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -6053,7 +6179,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1825910-6"
+		(property "manf#" "EVQ-P7A01P"
 			(at 71.12 66.04 0)
 			(effects
 				(font
@@ -6063,6 +6189,15 @@
 			)
 		)
 		(property "gp" "1825910-6"
+			(at 71.12 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "EVQ-P7A01P"
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -6339,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " CC1206KKX7R7BB105"
+		(property "manf#" "GRM21BZ71A226ME15L"
 			(at 160.02 33.02 0)
 			(effects
 				(font
@@ -6349,6 +6484,15 @@
 			)
 		)
 		(property "gp" " CC1206KKX7R7BB105"
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
 			(at 160.02 33.02 0)
 			(effects
 				(font
