@@ -3912,7 +3912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "VEMD8080"
+		(property "JLCPCB Part #" "C511402"
 			(at 167.64 152.4 90)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -4364,7 +4364,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -4458,7 +4458,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 189.23 130.81 0)
 			(effects
 				(font
@@ -4828,7 +4828,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "MAX86141ENP+T"
+		(property "JLCPCB Part #" "C5328762"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 210.82 130.81 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "VEMD8080"
+		(property "JLCPCB Part #" "C511402"
 			(at 144.78 152.4 90)
 			(effects
 				(font
@@ -5656,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CC0805JRNPO9BN100"
+		(property "JLCPCB Part #" "C107107"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -6083,7 +6083,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -6246,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 82.55 107.95 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "ICM-42670-P"
+		(property "JLCPCB Part #" "C3288646"
 			(at 109.22 58.42 0)
 			(effects
 				(font
@@ -6571,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B225KAFNNNE"
+		(property "JLCPCB Part #" "C19110"
 			(at 140.97 29.21 0)
 			(effects
 				(font

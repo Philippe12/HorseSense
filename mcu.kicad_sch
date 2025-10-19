@@ -3818,7 +3818,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "TXB0304RUTR"
+		(property "JLCPCB Part #" "C69598"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -4152,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "EVQ-P7A01P"
+		(property "JLCPCB Part #" "C79167"
 			(at 44.45 62.23 90)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 31.75 54.61 90)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "ESP32-S3-WROOM-1-N16R8"
+		(property "JLCPCB Part #" "C2913202"
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -6197,7 +6197,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "EVQ-P7A01P"
+		(property "JLCPCB Part #" "C79167"
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 160.02 33.02 0)
 			(effects
 				(font
