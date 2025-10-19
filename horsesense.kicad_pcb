@@ -298,7 +298,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "MLF2012D68NMTD25"
+		(property "JLCPCB Part #" "C404449"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -524,7 +524,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -776,7 +776,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1015,7 +1015,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "GRM2165C1H101JA01D"
+		(property "JLCPCB Part #" "C77059"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1241,7 +1241,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1480,7 +1480,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2212,7 +2212,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "ESP32-S3-WROOM-1-N16R8"
+		(property "JLCPCB Part #" "C2913202"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3156,7 +3156,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "MAX86141ENP+T"
+		(property "JLCPCB Part #" "C5328762"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3652,7 +3652,7 @@
 				)
 			)
 		)
-		(property "manf#" "CC0805JRNPO9BN100"
+		(property "manf#" "CL21B103KBANNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CC0805JRNPO9BN100"
+		(property "JLCPCB Part #" " C1710"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4704,7 +4704,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4917,7 +4917,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5451,7 +5451,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5703,7 +5703,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5942,7 +5942,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6155,7 +6155,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD5101F"
+		(property "JLCPCB Part #" "C317272"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6394,7 +6394,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6607,7 +6607,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "BQ25601DRTWR"
+		(property "JLCPCB Part #" "C2859691"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7417,7 +7417,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD1002F"
+		(property "JLCPCB Part #" "C276215"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7656,7 +7656,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "0805B473K500NT"
+		(property "JLCPCB Part #" "C1745"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8121,7 +8121,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8360,7 +8360,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CC0805JRNPO9BN330"
+		(property "JLCPCB Part #" "C107115"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8586,7 +8586,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8825,7 +8825,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9205,7 +9205,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "LC76GPAMD"
+		(property "JLCPCB Part #" "C20607017"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9749,7 +9749,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9988,7 +9988,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10214,7 +10214,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10440,7 +10440,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10653,7 +10653,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "AP22804AW5-7"
+		(property "JLCPCB Part #" "C3001659"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11021,7 +11021,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11284,7 +11284,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "ICM-42670-P"
+		(property "JLCPCB Part #" "C3288646"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12101,7 +12101,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "LQM21PH1R0NGCD"
+		(property "JLCPCB Part #" "C484262"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12342,7 +12342,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B105KAFNFNE"
+		(property "JLCPCB Part #" "C1712"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12555,7 +12555,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "XC6210B332MR"
+		(property "JLCPCB Part #" "C424705"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12925,7 +12925,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "EVQ-P7A01P"
+		(property "JLCPCB Part #" "C79167"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13253,7 +13253,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13466,7 +13466,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RC0805JR-7W0RL"
+		(property "JLCPCB Part #" "C2936632"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13718,7 +13718,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13944,7 +13944,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2012X7R1A475KT000N"
+		(property "JLCPCB Part #" "C76639"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14183,7 +14183,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B225KAFNNNE"
+		(property "JLCPCB Part #" "C19110"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14411,7 +14411,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "73412-0110"
+		(property "JLCPCB Part #" "C434806"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14826,7 +14826,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CC0805JRNPO9BN330"
+		(property "JLCPCB Part #" "C107115"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15065,7 +15065,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15304,7 +15304,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15543,7 +15543,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "GRM2165C1H101JA01D"
+		(property "JLCPCB Part #" "C77059"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15773,7 +15773,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "USB4105-GF-A-120"
+		(property "JLCPCB Part #" "C5184243"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16175,7 +16175,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16390,7 +16390,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "TXB0304RUTR"
+		(property "JLCPCB Part #" "C69598"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16760,7 +16760,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B106KPQNNNE"
+		(property "JLCPCB Part #" "C32635"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16973,7 +16973,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "XC6210B182MR"
+		(property "JLCPCB Part #" "C2983925"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17315,7 +17315,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "RK73H2ATTD5101F"
+		(property "JLCPCB Part #" "C317272"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17567,7 +17567,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "GRM21BZ71A226ME15L"
+		(property "JLCPCB Part #" "C907991"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17808,7 +17808,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "EVQ-P7A01P"
+		(property "JLCPCB Part #" "C79167"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18149,7 +18149,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "CL21B104KBCNNNC"
+		(property "JLCPCB Part #" "C1711"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18434,7 +18434,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part #" "VEMD8080"
+		(property "JLCPCB Part #" "C511402"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18744,7 +18744,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19042,7 +19042,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19380,7 +19380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part #" "VEMD8080"
+		(property "JLCPCB Part #" "C511402"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19690,7 +19690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part #" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
+		(property "JLCPCB Part #" "C5344735"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")

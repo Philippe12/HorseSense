@@ -5638,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CC0805JRNPO9BN100"
+		(property "manf#" "CL21B103KBANNNC"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -5656,7 +5656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C107107"
+		(property "JLCPCB Part #" " C1710"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 			)
 		)
 		(property "Value" "ICM-42670-P"
-			(at 109.22 43.18 0)
+			(at 101.854 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)

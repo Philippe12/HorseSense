@@ -1,0 +1,2558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/philippefouquet/Documents/Developpement/Electronique/horsesense/horsesense.kicad_sch</source>
+    <date>2025-10-19T16:21:12+0200</date>
+    <tool>Eeschema 9.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>horsesense.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mcu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>capteur.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gps.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>c5c3a3a8-237b-4603-bef3-be0aead113f5</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">GRM21BZ71A226ME15L</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C907991</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="GRM21BZ71A226ME15L"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C907991"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>f5df2023-7c6d-40ce-98bb-049b63580f0f</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>c9352e85-b9b7-4595-adc7-02834d390382</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>dd9004c3-14b2-4ec5-9ec1-a5ba47be7dff</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>e4c05277-d7b3-48ac-baf2-7aebd599363d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C276215</field>
+        <field name="manf#">RK73H2ATTD1002F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C276215"/>
+      <property name="manf#" value="RK73H2ATTD1002F"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>8c027df9-9ad6-4b7e-b20e-3771cb973805</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C276215</field>
+        <field name="manf#">RK73H2ATTD1002F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C276215"/>
+      <property name="manf#" value="RK73H2ATTD1002F"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>3e2cf508-5d0f-45ba-8196-cec2ac7fde59</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="manf#">RK73H2ATTD1002F</field>
+        <field name="gp">RC1206FR-0710KL</field>
+        <field name="JLCPCB Part #">C276215</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RK73H2ATTD1002F"/>
+      <property name="gp" value="RC1206FR-0710KL"/>
+      <property name="JLCPCB Part #" value="C276215"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>4433a3c9-96e8-4fca-a51e-55a19d671084</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>EVQ-P7A01P</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVQP7A</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <description>Omron B3FS 6x6mm single pole normally-open tactile switch</description>
+      <fields>
+        <field name="manf#">EVQ-P7A01P</field>
+        <field name="gp">1825910-6</field>
+        <field name="JLCPCB Part #">C79167</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_EVQP7A</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</field>
+        <field name="Description">Omron B3FS 6x6mm single pole normally-open tactile switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Omron_B3FS" description="Omron B3FS 6x6mm single pole normally-open tactile switch"/>
+      <property name="manf#" value="EVQ-P7A01P"/>
+      <property name="gp" value="1825910-6"/>
+      <property name="JLCPCB Part #" value="C79167"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*Omron*B3FS*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>25d41caa-34ed-4788-89ea-5a318ab91611</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>EVQ-P7A01P</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVQP7A</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <description>Omron B3FS 6x6mm single pole normally-open tactile switch</description>
+      <fields>
+        <field name="manf#">EVQ-P7A01P</field>
+        <field name="gp">1825910-6</field>
+        <field name="JLCPCB Part #">C79167</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_EVQP7A</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</field>
+        <field name="Description">Omron B3FS 6x6mm single pole normally-open tactile switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Omron_B3FS" description="Omron B3FS 6x6mm single pole normally-open tactile switch"/>
+      <property name="manf#" value="EVQ-P7A01P"/>
+      <property name="gp" value="1825910-6"/>
+      <property name="JLCPCB Part #" value="C79167"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <property name="ki_fp_filters" value="SW*Omron*B3FS*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>e7a4704c-2f8a-43aa-a1d3-3697e2554586</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TXB0304RUTR</value>
+      <footprint>Package_DFN_QFN:Texas_R-PUQFN-N12</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0304.pdf</datasheet>
+      <description>4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12</description>
+      <fields>
+        <field name="JLCPCB Part #">C69598</field>
+        <field name="manf#">TXB0304RUTR</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_R-PUQFN-N12</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/txb0304.pdf</field>
+        <field name="Description">4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12</field>
+      </fields>
+      <libsource lib="Logic_LevelTranslator" part="TXB0304RUT" description="4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12"/>
+      <property name="JLCPCB Part #" value="C69598"/>
+      <property name="manf#" value="TXB0304RUTR"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="Level-Shifter CMOS-TTL-Translation"/>
+      <property name="ki_fp_filters" value="Texas*R*PUQFN*N12*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>04ba4b60-6e88-43ed-829b-564b1685d5c0</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>ESP32-S3-WROOM-1-N16R8</value>
+      <footprint>RF_Module:ESP32-S3-WROOM-1</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</datasheet>
+      <description>RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</description>
+      <fields>
+        <field name="manf#">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="gp">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="JLCPCB Part #">C2913202</field>
+        <field name="Footprint">RF_Module:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-S3-WROOM-1" description="RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"/>
+      <property name="manf#" value="ESP32-S3-WROOM-1-N16R8"/>
+      <property name="gp" value="ESP32-S3-WROOM-1-N16R8"/>
+      <property name="JLCPCB Part #" value="C2913202"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"/>
+      <property name="ki_fp_filters" value="ESP32?S3?WROOM?1*"/>
+      <sheetpath names="/MCU/" tstamps="/4f5da0f7-32d4-4c35-9e09-eaff048f43d5/"/>
+      <tstamps>701884ca-f247-4285-922e-7ce551d005fa</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>4ae5eeb4-6a93-424e-9844-f5b021a78b1a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B225KAFNNNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C19110</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B225KAFNNNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C19110"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>f61c14ef-1e55-4376-8585-ec861f04da98</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>46139ce3-e69b-406e-9270-b5dc1badf95f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>43635a0b-b614-4850-bca2-9f617835ec2e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">GRM21BZ71A226ME15L</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C907991</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="GRM21BZ71A226ME15L"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C907991"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>e4229f4f-69b0-4858-ad0d-7fe4c6c62333</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">GRM21BZ71A226ME15L</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C907991</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="GRM21BZ71A226ME15L"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C907991"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>d4fab53b-f704-4724-84a4-80ce2cf812f5</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B103KBANNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #"> C1710</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B103KBANNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value=" C1710"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>b1b49f4b-0e85-4266-a617-df2021c4f7d6</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>9da3a2f2-1e58-40f8-9dd3-ac92fcae5f0c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>CT DBLP31.12-6C5D-56-J6U6-20-R18</value>
+      <footprint>Local:CTDBLP31126C5D56J6U620R18</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="manf#">CT DBLP31.12-6C5D-56-J6U6-20-R18</field>
+        <field name="JLCPCB Part #">C5344735</field>
+        <field name="Footprint">Local:CTDBLP31126C5D56J6U620R18</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="manf#" value="CT DBLP31.12-6C5D-56-J6U6-20-R18"/>
+      <property name="JLCPCB Part #" value="C5344735"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>6361e5c4-9d75-40d1-a85c-691be390b7b8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CT DBLP31.12-6C5D-56-J6U6-20-R18</value>
+      <footprint>Local:CTDBLP31126C5D56J6U620R18</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="manf#">CT DBLP31.12-6C5D-56-J6U6-20-R18</field>
+        <field name="JLCPCB Part #">C5344735</field>
+        <field name="Footprint">Local:CTDBLP31126C5D56J6U620R18</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="manf#" value="CT DBLP31.12-6C5D-56-J6U6-20-R18"/>
+      <property name="JLCPCB Part #" value="C5344735"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>50589638-5170-4cce-8503-9e195e71cd57</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>CT DBLP31.12-6C5D-56-J6U6-20-R18</value>
+      <footprint>Local:CTDBLP31126C5D56J6U620R18</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="manf#">CT DBLP31.12-6C5D-56-J6U6-20-R18</field>
+        <field name="JLCPCB Part #">C5344735</field>
+        <field name="Footprint">Local:CTDBLP31126C5D56J6U620R18</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="manf#" value="CT DBLP31.12-6C5D-56-J6U6-20-R18"/>
+      <property name="JLCPCB Part #" value="C5344735"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>8dcd9ddf-73d2-4062-8f2b-f6c2de6fd1bc</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>VEMD8080</value>
+      <footprint>Local:XDCR_VEMD8080</footprint>
+      <fields>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.53mm</field>
+        <field name="MANUFACTURER">VISHAY</field>
+        <field name="manf#">VEMD8080</field>
+        <field name="JLCPCB Part #">C511402</field>
+        <field name="Footprint">Local:XDCR_VEMD8080</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD8080" part="VEMD8080" description=""/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.53mm"/>
+      <property name="MANUFACTURER" value="VISHAY"/>
+      <property name="manf#" value="VEMD8080"/>
+      <property name="JLCPCB Part #" value="C511402"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>ae82ed92-5b6c-4c6e-978d-2d04cd5a7df8</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>VEMD8080</value>
+      <footprint>Local:XDCR_VEMD8080</footprint>
+      <fields>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.53mm</field>
+        <field name="MANUFACTURER">VISHAY</field>
+        <field name="manf#">VEMD8080</field>
+        <field name="JLCPCB Part #">C511402</field>
+        <field name="Footprint">Local:XDCR_VEMD8080</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD8080" part="VEMD8080" description=""/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.53mm"/>
+      <property name="MANUFACTURER" value="VISHAY"/>
+      <property name="manf#" value="VEMD8080"/>
+      <property name="JLCPCB Part #" value="C511402"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>38fee1dc-55f9-4fab-a9d0-26f8e92c20c5</tstamps>
+    </comp>
+    <comp ref="MT1">
+      <value>ICM-42670-P</value>
+      <footprint>Local:XDCR_ICM-42670-P</footprint>
+      <fields>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.81 mm</field>
+        <field name="MANUFACTURER">TDK InvenSense</field>
+        <field name="JLCPCB Part #">C3288646</field>
+        <field name="manf#">ICM-42670-P</field>
+        <field name="Footprint">Local:XDCR_ICM-42670-P</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ICM-42670-P" part="ICM-42670-P" description=""/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.81 mm"/>
+      <property name="MANUFACTURER" value="TDK InvenSense"/>
+      <property name="JLCPCB Part #" value="C3288646"/>
+      <property name="manf#" value="ICM-42670-P"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>e695f34f-9ffe-43e3-b54e-891350ad15ec</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX86141ENP+T</value>
+      <footprint>Local:21-100134_N201A2-1_MXM</footprint>
+      <datasheet>MAX86141ENP+T</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C5328762</field>
+        <field name="manf#">MAX86141ENP+T</field>
+        <field name="Footprint">Local:21-100134_N201A2-1_MXM</field>
+        <field name="Datasheet">MAX86141ENP+T</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2025-09-12_09-49-28" part="MAX86141ENP+T" description=""/>
+      <property name="JLCPCB Part #" value="C5328762"/>
+      <property name="manf#" value="MAX86141ENP+T"/>
+      <property name="Sheetname" value="capteur"/>
+      <property name="Sheetfile" value="capteur.kicad_sch"/>
+      <property name="ki_keywords" value="MAX86141ENP+T"/>
+      <property name="ki_fp_filters" value="21-100134_N201A2-1_MXM"/>
+      <sheetpath names="/capteur/" tstamps="/ea6c1ed7-481e-430a-be6f-6eac0865153a/"/>
+      <tstamps>6498107e-dd5c-496d-844d-979ac78e6dbb</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>84ef30de-7f9c-4aa9-b41e-1cd7fb4c1f5d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>6b7a86ae-ccb2-4a30-b7fb-fd3929d04bb8</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>33p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CC0805JRNPO9BN330</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C107115</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CC0805JRNPO9BN330"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C107115"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>a23e0a07-d207-4c1a-b817-07cc243496e4</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>33p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CC0805JRNPO9BN330</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C107115</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CC0805JRNPO9BN330"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C107115"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>7fc7afba-10a8-468f-9c9d-f4f421bb1f58</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>b920ecd7-56a5-4db6-8a3d-27e679be3924</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>8c7f1bb2-9321-47e2-bd1e-fa8e5ed3dbc0</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">GRM2165C1H101JA01D</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C77059</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="GRM2165C1H101JA01D"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C77059"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>f9ead158-4c0f-4789-b0b5-3a6cddfceacc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">GRM2165C1H101JA01D</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C77059</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="GRM2165C1H101JA01D"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C77059"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>56012d59-bf68-481f-af26-f2a78a76dde4</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B104KBCNNNC</field>
+        <field name="gp"> CC1206KKX7R7BB105</field>
+        <field name="JLCPCB Part #">C1711</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B104KBCNNNC"/>
+      <property name="gp" value=" CC1206KKX7R7BB105"/>
+      <property name="JLCPCB Part #" value="C1711"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>e3480aa5-5862-4e0c-8c13-a558da7bf5b0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>73412-0110</value>
+      <footprint>Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="manf#">73412-0110</field>
+        <field name="JLCPCB Part #">C434806</field>
+        <field name="Footprint">Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="manf#" value="73412-0110"/>
+      <property name="JLCPCB Part #" value="C434806"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>2dd5385c-b8c1-4ad1-b6a3-ab138daf090a</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>68nH</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor with iron core, small symbol</description>
+      <fields>
+        <field name="JLCPCB Part #">C404449</field>
+        <field name="manf#">MLF2012D68NMTD25</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor with iron core, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="L_Iron_Small" description="Inductor with iron core, small symbol"/>
+      <property name="JLCPCB Part #" value="C404449"/>
+      <property name="manf#" value="MLF2012D68NMTD25"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>bdc600f3-0a27-4b9c-9e71-739783955292</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C2936632</field>
+        <field name="manf#">RC0805JR-7W0RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C2936632"/>
+      <property name="manf#" value="RC0805JR-7W0RL"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>6fdfb163-6431-4b0f-8efb-cfaba95cbd24</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LC76GPAMD</value>
+      <footprint>Local:XCVR_LC76G</footprint>
+      <fields>
+        <field name="MF">Quectel</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.70mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=snap</field>
+        <field name="MP">LC76G</field>
+        <field name="Description_1">GNSS module; 10.1mm  9.7mm  2.4mm; 0.3g; GPS, GLONASS (or BeiDou) and QZSS; Operating temperature of -40C to +85C.</field>
+        <field name="MANUFACTURER">Quectel</field>
+        <field name="Availability">Not in stock</field>
+        <field name="SNAPEDA_PN">LC76G</field>
+        <field name="JLCPCB Part #">C20607017</field>
+        <field name="manf#">LC76GPAMD</field>
+        <field name="Footprint">Local:XCVR_LC76G</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LC76G" part="LC76G" description=""/>
+      <property name="MF" value="Quectel"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.70mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.0"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=snap"/>
+      <property name="MP" value="LC76G"/>
+      <property name="Description_1" value="GNSS module; 10.1mm  9.7mm  2.4mm; 0.3g; GPS, GLONASS (or BeiDou) and QZSS; Operating temperature of -40C to +85C."/>
+      <property name="MANUFACTURER" value="Quectel"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="SNAPEDA_PN" value="LC76G"/>
+      <property name="JLCPCB Part #" value="C20607017"/>
+      <property name="manf#" value="LC76GPAMD"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>fd7ae4b3-32c7-4f6a-9429-8f67e43de24e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AP22804AW5-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP22804_14.pdf</datasheet>
+      <description>Current limited 2.5A power switch, single channel, SOT-23-5</description>
+      <fields>
+        <field name="JLCPCB Part #">C3001659</field>
+        <field name="manf#">AP22804AW5-7</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP22804_14.pdf</field>
+        <field name="Description">Current limited 2.5A power switch, single channel, SOT-23-5</field>
+      </fields>
+      <libsource lib="Power_Management" part="AP22804AW5" description="Current limited 2.5A power switch, single channel, SOT-23-5"/>
+      <property name="JLCPCB Part #" value="C3001659"/>
+      <property name="manf#" value="AP22804AW5-7"/>
+      <property name="Sheetname" value="GPS"/>
+      <property name="Sheetfile" value="gps.kicad_sch"/>
+      <property name="ki_keywords" value="Limit USB Active High"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/GPS/" tstamps="/7dd56066-f1cf-4fdc-93cd-5defccfe7df4/"/>
+      <tstamps>b3766825-0fcc-4ff3-8991-d242a52ad44d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>be0cff80-61b3-432c-9633-45eb02ba72d2</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>ea9fb5dd-c7e4-4c62-aeb6-b19f81995c4e</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>55ba4d2f-5d37-4154-97a9-a73f6e388120</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">C2012X7R1A475KT000N</field>
+        <field name="JLCPCB Part #">C76639</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C2012X7R1A475KT000N"/>
+      <property name="JLCPCB Part #" value="C76639"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>7940010e-a19b-47eb-9415-e8b7168828b8</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B106KPQNNNE</field>
+        <field name="JLCPCB Part #">C32635</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B106KPQNNNE"/>
+      <property name="JLCPCB Part #" value="C32635"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>1ea9ac17-d43c-4797-b901-3025018d5949</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">0805B473K500NT</field>
+        <field name="JLCPCB Part #">C1745</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="0805B473K500NT"/>
+      <property name="JLCPCB Part #" value="C1745"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>90412fd3-7250-498c-bb50-a19b2bb03c55</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>3df67d88-ef0c-43fd-865c-fa40f9429b93</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>d518f8ea-4b87-4510-93fd-950fea1af4ce</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>b316c46a-e780-472c-84ea-632c84d9480f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="manf#">CL21B105KAFNFNE</field>
+        <field name="JLCPCB Part #">C1712</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21B105KAFNFNE"/>
+      <property name="JLCPCB Part #" value="C1712"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>65e9b07e-dc06-42e1-826d-b7d7f8f8802d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4105-GF-A-120</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <description>USB 2.0-only 14P Type-C Receptacle connector</description>
+      <fields>
+        <field name="manf#">USB4105-GF-A-120</field>
+        <field name="JLCPCB Part #">C5184243</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 14P Type-C Receptacle connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_14P" description="USB 2.0-only 14P Type-C Receptacle connector"/>
+      <property name="manf#" value="USB4105-GF-A-120"/>
+      <property name="JLCPCB Part #" value="C5184243"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>dbffd400-b623-4125-965a-3fba8a886d8a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1µ</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="manf#">LQM21PH1R0NGCD</field>
+        <field name="JLCPCB Part #">C484262</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="manf#" value="LQM21PH1R0NGCD"/>
+      <property name="JLCPCB Part #" value="C484262"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>9abb28ff-94dc-497a-9901-5c277ab0014d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C317272</field>
+        <field name="manf#">RK73H2ATTD5101F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C317272"/>
+      <property name="manf#" value="RK73H2ATTD5101F"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>25830b7b-0743-4322-99c8-21b4cd46c6cf</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C317272</field>
+        <field name="manf#">RK73H2ATTD5101F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C317272"/>
+      <property name="manf#" value="RK73H2ATTD5101F"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>7f9250f4-3258-4ac9-8285-f1a151fcafdf</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C276215</field>
+        <field name="manf#">RK73H2ATTD1002F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C276215"/>
+      <property name="manf#" value="RK73H2ATTD1002F"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>5be3416d-b846-4638-96f8-933b6308673a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="JLCPCB Part #">C276215</field>
+        <field name="manf#">RK73H2ATTD1002F</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part #" value="C276215"/>
+      <property name="manf#" value="RK73H2ATTD1002F"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>e55ba75b-f071-4eb4-b09d-ef1fc1fb9d63</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BQ25601</value>
+      <footprint>Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq25601.pdf</datasheet>
+      <description>I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32</description>
+      <fields>
+        <field name="JLCPCB Part #">C2859691</field>
+        <field name="manf#">BQ25601DRTWR</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq25601.pdf</field>
+        <field name="Description">I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32</field>
+      </fields>
+      <libsource lib="Battery_Management" part="BQ25601" description="I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32"/>
+      <property name="JLCPCB Part #" value="C2859691"/>
+      <property name="manf#" value="BQ25601DRTWR"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="LiPO charger"/>
+      <property name="ki_fp_filters" value="Texas*RTW*EP2.7x2.7mm*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>626a9b66-14c8-46ee-87b7-fc33788f8ce7</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>XC6210B332MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6210/XC6210.pdf</datasheet>
+      <description>700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <fields>
+        <field name="JLCPCB Part #">C424705</field>
+        <field name="manf#">XC6210B332MR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6210/XC6210.pdf</field>
+        <field name="Description">700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6210B332MR" description="700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="JLCPCB Part #" value="C424705"/>
+      <property name="manf#" value="XC6210B332MR"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="LDO Voltage Regulator 700mA"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>bc0e3907-2d47-4e8c-95c2-4cf8491c5c17</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>XC6210B182MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6210/XC6210.pdf</datasheet>
+      <description>700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <fields>
+        <field name="JLCPCB Part #">C2983925</field>
+        <field name="manf#">XC6210B182MR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6210/XC6210.pdf</field>
+        <field name="Description">700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6210B332MR" description="700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <property name="JLCPCB Part #" value="C2983925"/>
+      <property name="manf#" value="XC6210B182MR"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="LDO Voltage Regulator 700mA"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/power/" tstamps="/6fcaec40-379c-49eb-807f-b8caccf6fb22/"/>
+      <tstamps>076f5da0-d75c-4bd0-96ec-f1da80911a2d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2025-09-12_09-49-28" part="MAX86141ENP+T">
+      <docs>MAX86141ENP+T</docs>
+      <footprints>
+        <fp>21-100134_N201A2-1_MXM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX86141ENP+T</field>
+        <field name="Footprint">21-100134_N201A2-1_MXM</field>
+        <field name="Datasheet">MAX86141ENP+T</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="VLED" type="unspecified"/>
+        <pin num="A2" name="SCLK" type="unspecified"/>
+        <pin num="A3" name="SDO" type="unspecified"/>
+        <pin num="A4" name="SDI" type="unspecified"/>
+        <pin num="A5" name="CSB" type="unspecified"/>
+        <pin num="B1" name="LED3_DRV" type="bidirectional"/>
+        <pin num="B2" name="*INT" type="unspecified"/>
+        <pin num="B3" name="GPIO1" type="bidirectional"/>
+        <pin num="B4" name="GPIO2" type="bidirectional"/>
+        <pin num="B5" name="VREF" type="power_in"/>
+        <pin num="C1" name="LED2_DRV" type="bidirectional"/>
+        <pin num="C2" name="VDD_DIG" type="power_in"/>
+        <pin num="C3" name="GND_DIG" type="power_out"/>
+        <pin num="C4" name="GND_ANA" type="power_out"/>
+        <pin num="C5" name="PD_GND" type="power_out"/>
+        <pin num="D1" name="LED1_DRV" type="bidirectional"/>
+        <pin num="D2" name="VDD_ANA" type="power_in"/>
+        <pin num="D3" name="PGND" type="power_out"/>
+        <pin num="D4" name="PD2_IN" type="bidirectional"/>
+        <pin num="D5" name="PD1_IN" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="BQ25601">
+      <description>I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq25601.pdf</docs>
+      <footprints>
+        <fp>Texas*RTW*EP2.7x2.7mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ25601</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq25601.pdf</field>
+        <field name="Description">I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VAC" type="input"/>
+        <pin num="2" name="PSEL" type="input"/>
+        <pin num="3" name="~{PG}" type="open_collector"/>
+        <pin num="4" name="STAT" type="open_collector"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+        <pin num="7" name="~{INT}" type="open_collector"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="~{CE}" type="input"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="TS" type="passive"/>
+        <pin num="12" name="~{QON}" type="input"/>
+        <pin num="13" name="BAT" type="power_in"/>
+        <pin num="14" name="BAT" type="passive"/>
+        <pin num="15" name="SYS" type="passive"/>
+        <pin num="16" name="SYS" type="passive"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="SW" type="passive"/>
+        <pin num="20" name="SW" type="passive"/>
+        <pin num="21" name="BTST" type="input"/>
+        <pin num="22" name="REGN" type="passive"/>
+        <pin num="23" name="PMID" type="passive"/>
+        <pin num="24" name="VBUS" type="power_in"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_14P">
+      <description>USB 2.0-only 14P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_14P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 14P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron_Small">
+      <description>Inductor with iron core, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor with iron core, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ICM-42670-P" part="ICM-42670-P">
+      <fields>
+        <field name="Reference">MT</field>
+        <field name="Value">ICM-42670-P</field>
+        <field name="Footprint">ICM-42670-P:XDCR_ICM-42670-P</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.81 mm</field>
+        <field name="MANUFACTURER">TDK InvenSense</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AP_SDO/AP_AD0" type="bidirectional"/>
+        <pin num="2" name="RESV" type="passive"/>
+        <pin num="3" name="RESV__1" type="passive"/>
+        <pin num="4" name="INT1/INT" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="FSYNC" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="RESV__2" type="passive"/>
+        <pin num="11" name="RESV__3" type="passive"/>
+        <pin num="12" name="AP_CS" type="input"/>
+        <pin num="13" name="AP_SCL/AP_SCLK" type="input"/>
+        <pin num="14" name="AP_SDA/AP_SDIO/AP_SDI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LC76G" part="LC76G">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LC76G</field>
+        <field name="Footprint">LC76G:XCVR_LC76G</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Quectel</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.70mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LC76G/Quectel/view-part/?ref=snap</field>
+        <field name="MP">LC76G</field>
+        <field name="Description_1">GNSS module; 10.1mm  9.7mm  2.4mm; 0.3g; GPS, GLONASS (or BeiDou) and QZSS; Operating temperature of -40C to +85C.</field>
+        <field name="MANUFACTURER">Quectel</field>
+        <field name="Availability">Not in stock</field>
+        <field name="SNAPEDA_PN">LC76G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="1PPS" type="output"/>
+        <pin num="5" name="~{AP_REQ}" type="output"/>
+        <pin num="6" name="V_BCKP" type="power_in"/>
+        <pin num="7" name="RESERVED" type="no_connect"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="~{RESET}" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="RF_IN" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="ANT_ON" type="output"/>
+        <pin num="14" name="VDD_RF" type="power_in"/>
+        <pin num="15" name="RESERVED" type="no_connect"/>
+        <pin num="16" name="I2C_SDA" type="bidirectional"/>
+        <pin num="17" name="I2C_SCL" type="input"/>
+        <pin num="18" name="RESERVED" type="no_connect"/>
+        <pin num="19" name="RESERVED" type="no_connect"/>
+        <pin num="20" name="SPI_CS" type="bidirectional"/>
+        <pin num="21" name="GEOFENCE" type="output"/>
+        <pin num="22" name="JAM_IND" type="output"/>
+        <pin num="23" name="3D_FIX" type="output"/>
+        <pin num="24" name="D_SEL" type="input"/>
+        <pin num="25" name="SPI_CLK" type="bidirectional"/>
+        <pin num="26" name="SPI_MISO" type="bidirectional"/>
+        <pin num="27" name="SPI_MOSI" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXB0304RUT">
+      <description>4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0304.pdf</docs>
+      <footprints>
+        <fp>Texas*R*PUQFN*N12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0304RUT</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_R-PUQFN-N12</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/txb0304.pdf</field>
+        <field name="Description">4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="tri_state"/>
+        <pin num="3" name="A2" type="tri_state"/>
+        <pin num="4" name="A3" type="tri_state"/>
+        <pin num="5" name="A4" type="tri_state"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="B4" type="tri_state"/>
+        <pin num="8" name="B3" type="tri_state"/>
+        <pin num="9" name="B2" type="tri_state"/>
+        <pin num="10" name="B1" type="tri_state"/>
+        <pin num="11" name="VCCB" type="power_in"/>
+        <pin num="12" name="OE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Management" part="AP22804AW5">
+      <description>Current limited 2.5A power switch, single channel, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP22804_14.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP22804AW5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP22804_14.pdf</field>
+        <field name="Description">Current limited 2.5A power switch, single channel, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{FLG}" type="open_collector"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-S3-WROOM-1">
+      <description>RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?S3?WROOM?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-WROOM-1</field>
+        <field name="Footprint">RF_Module:ESP32-S3-WROOM-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="USB_D-" type="bidirectional"/>
+        <pin num="14" name="USB_D+" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="RXD0" type="bidirectional"/>
+        <pin num="37" name="TXD0" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="XC6210B332MR">
+      <description>700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</description>
+      <docs>https://www.torexsemi.com/file/xc6210/XC6210.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC6210B332MR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6210/XC6210.pdf</field>
+        <field name="Description">700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Omron_B3FS">
+      <description>Omron B3FS 6x6mm single pole normally-open tactile switch</description>
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</docs>
+      <footprints>
+        <fp>SW*Omron*B3FS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Omron_B3FS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</field>
+        <field name="Description">Omron B3FS 6x6mm single pole normally-open tactile switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VEMD8080" part="VEMD8080">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VEMD8080</field>
+        <field name="Footprint">VEMD8080:XDCR_VEMD8080</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">1.0</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.53mm</field>
+        <field name="MANUFACTURER">VISHAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2025-09-12_09-49-28">
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/horsesense/lib/2025-09-12_09-49-28.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ICM-42670-P">
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/horsesense/lib/ICM-42670-P.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="LC76G">
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/horsesense/lib/LC76G.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+    <library logical="Power_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Power_Management.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="VEMD8080">
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/horsesense/lib/VEMD8080.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1.8V" class="Default">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="C2" pinfunction="VDD_DIG" pintype="power_in"/>
+      <node ref="U1" pin="D2" pinfunction="VDD_ANA" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="OE" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3.3V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="MT1" pin="12" pinfunction="AP_CS" pintype="input"/>
+      <node ref="MT1" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="MT1" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="A1" pinfunction="VLED" pintype="unspecified"/>
+      <node ref="U2" pin="11" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U6" pin="6" pinfunction="V_BCKP" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="3" name="+BATT" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="BAT" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="4" name="CE_BAT" class="Default">
+      <node ref="U3" pin="9" pinfunction="~{CE}" pintype="input"/>
+      <node ref="U9" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="D+" class="Default">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U9" pin="14" pinfunction="USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D-" class="Default">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U9" pin="13" pinfunction="USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="MT1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="C3" pinfunction="GND_DIG" pintype="power_out"/>
+      <node ref="U1" pin="C4" pinfunction="GND_ANA" pintype="power_out"/>
+      <node ref="U1" pin="D3" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="41" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="8" name="GPS_FIX" class="Default">
+      <node ref="U6" pin="23" pinfunction="3D_FIX" pintype="output"/>
+      <node ref="U9" pin="26" pinfunction="IO45" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GPS_JAM" class="Default">
+      <node ref="U6" pin="22" pinfunction="JAM_IND" pintype="output"/>
+      <node ref="U9" pin="16" pinfunction="IO46" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="GPS_PP1" class="Default">
+      <node ref="U6" pin="4" pinfunction="1PPS" pintype="output"/>
+      <node ref="U9" pin="34" pinfunction="IO41" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="GPS_REF" class="Default">
+      <node ref="U6" pin="21" pinfunction="GEOFENCE" pintype="output"/>
+      <node ref="U9" pin="35" pinfunction="IO42" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GPS_REQ" class="Default">
+      <node ref="U6" pin="5" pinfunction="~{AP_REQ}" pintype="output"/>
+      <node ref="U9" pin="33" pinfunction="IO40" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GPS_RST" class="Default">
+      <node ref="U6" pin="9" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U9" pin="32" pinfunction="IO39" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GPS_RX" class="Default">
+      <node ref="U6" pin="3" pinfunction="RXD" pintype="input"/>
+      <node ref="U9" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="GPS_SEL" class="Default">
+      <node ref="U6" pin="24" pinfunction="D_SEL" pintype="input"/>
+      <node ref="U9" pin="31" pinfunction="IO38" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GPS_TX" class="Default">
+      <node ref="U6" pin="2" pinfunction="TXD" pintype="output"/>
+      <node ref="U9" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="ICM_AD0" class="Default">
+      <node ref="MT1" pin="1" pinfunction="AP_SDO/AP_AD0" pintype="bidirectional"/>
+      <node ref="U9" pin="39" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="ICM_FSYNC" class="Default">
+      <node ref="MT1" pin="7" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="ICM_INT" class="Default">
+      <node ref="MT1" pin="4" pinfunction="INT1/INT" pintype="output"/>
+      <node ref="U9" pin="6" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="ICM_INT2" class="Default">
+      <node ref="MT1" pin="9" pinfunction="INT2" pintype="output"/>
+      <node ref="U9" pin="7" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="INT_BAT" class="Default">
+      <node ref="U3" pin="7" pinfunction="~{INT}" pintype="open_collector"/>
+      <node ref="U9" pin="38" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="MAX_CS" class="Default">
+      <node ref="U2" pin="10" pinfunction="B1" pintype="tri_state"/>
+      <node ref="U9" pin="18" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="MAX_CS_1_8" class="Default">
+      <node ref="U1" pin="A5" pinfunction="CSB" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="24" name="MAX_MISO" class="Default">
+      <node ref="U2" pin="9" pinfunction="B2" pintype="tri_state"/>
+      <node ref="U9" pin="19" pinfunction="IO11" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="MAX_MISO_1_8" class="Default">
+      <node ref="U1" pin="A3" pinfunction="SDO" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="26" name="MAX_MOSI" class="Default">
+      <node ref="U2" pin="7" pinfunction="B4" pintype="tri_state"/>
+      <node ref="U9" pin="21" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="MAX_MOSI_1_8" class="Default">
+      <node ref="U1" pin="A4" pinfunction="SDI" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="28" name="MAX_SCLK" class="Default">
+      <node ref="U2" pin="8" pinfunction="B3" pintype="tri_state"/>
+      <node ref="U9" pin="20" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="MAX_SCLK_1_8" class="Default">
+      <node ref="U1" pin="A2" pinfunction="SCLK" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="30" name="Net-(C13-Pad1)" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="SW" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C27-Pad1)" class="Default">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="D1" pinfunction="LED1_DRV" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(D2-K)" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="C1" pinfunction="LED2_DRV" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(D3-K)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="B1" pinfunction="LED3_DRV" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(J1-CC1)" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J1-CC2)" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J3-In)" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J4-Pin_2)" class="Default">
+      <node ref="U9" pin="37" pinfunction="TXD0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(J4-Pin_3)" class="Default">
+      <node ref="U9" pin="36" pinfunction="RXD0" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(U1-PD1_IN)" class="Default">
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="D6" pin="3" pintype="passive"/>
+      <node ref="D6" pin="4" pintype="passive"/>
+      <node ref="D6" pin="6" pintype="passive"/>
+      <node ref="D6" pin="7" pintype="passive"/>
+      <node ref="D6" pin="8" pintype="passive"/>
+      <node ref="U1" pin="D5" pinfunction="PD1_IN" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(U1-PD2_IN)" class="Default">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="D4" pin="3" pintype="passive"/>
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="D4" pin="6" pintype="passive"/>
+      <node ref="D4" pin="7" pintype="passive"/>
+      <node ref="D4" pin="8" pintype="passive"/>
+      <node ref="U1" pin="D4" pinfunction="PD2_IN" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(U1-VREF)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="B5" pinfunction="VREF" pintype="power_in"/>
+    </net>
+    <net code="43" name="Net-(U3-BTST)" class="Default">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="BTST" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U3-PMID)" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="PMID" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U3-REGN)" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="REGN" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(U3-TS)" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="TS" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U6-ANT_ON)" class="Default">
+      <node ref="U6" pin="13" pinfunction="ANT_ON" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U6-RF_IN)" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="RF_IN" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U6-VDD_RF)" class="Default">
+      <node ref="U6" pin="14" pinfunction="VDD_RF" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(U7-OUT)" class="Default">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="51" name="Net-(U9-EN)" class="Default">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(U9-IO0)" class="Default">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="PD_GND" class="Default">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="D4" pin="5" pintype="passive"/>
+      <node ref="D6" pin="5" pintype="passive"/>
+      <node ref="U1" pin="C5" pinfunction="PD_GND" pintype="power_out"/>
+    </net>
+    <net code="54" name="PSEL_BAT" class="Default">
+      <node ref="U3" pin="2" pinfunction="PSEL" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="SCL" class="Default">
+      <node ref="MT1" pin="13" pinfunction="AP_SCL/AP_SCLK" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="U6" pin="17" pinfunction="I2C_SCL" pintype="input"/>
+      <node ref="U9" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="SDA" class="Default">
+      <node ref="MT1" pin="14" pinfunction="AP_SDA/AP_SDIO/AP_SDI" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="16" pinfunction="I2C_SDA" pintype="bidirectional"/>
+      <node ref="U9" pin="8" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="VBUS" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VAC" pintype="input"/>
+      <node ref="U3" pin="24" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="58" name="Vsys" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="SYS" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="SYS" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="CE" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="59" name="unconnected-(MT1-RESV-Pad2)" class="Default">
+      <node ref="MT1" pin="2" pinfunction="RESV" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(MT1-RESV__1-Pad3)" class="Default">
+      <node ref="MT1" pin="3" pinfunction="RESV__1" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(MT1-RESV__2-Pad10)" class="Default">
+      <node ref="MT1" pin="10" pinfunction="RESV__2" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(MT1-RESV__3-Pad11)" class="Default">
+      <node ref="MT1" pin="11" pinfunction="RESV__3" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-*INT-PadB2)" class="Default">
+      <node ref="U1" pin="B2" pinfunction="*INT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-GPIO1-PadB3)" class="Default">
+      <node ref="U1" pin="B3" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-GPIO2-PadB4)" class="Default">
+      <node ref="U1" pin="B4" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-NC-Pad8)" class="Default">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-NC-Pad10)" class="Default">
+      <node ref="U3" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-STAT-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="STAT" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-~{PG}-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="~{PG}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-~{QON}-Pad12)" class="Default">
+      <node ref="U3" pin="12" pinfunction="~{QON}" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U4-NC-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U5-NC-Pad4)" class="Default">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U6-RESERVED-Pad7)" class="Default">
+      <node ref="U6" pin="7" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U6-RESERVED-Pad15)" class="Default">
+      <node ref="U6" pin="15" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U6-RESERVED-Pad18)" class="Default">
+      <node ref="U6" pin="18" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U6-RESERVED-Pad19)" class="Default">
+      <node ref="U6" pin="19" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U6-SPI_CLK-Pad25)" class="Default">
+      <node ref="U6" pin="25" pinfunction="SPI_CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U6-SPI_CS-Pad20)" class="Default">
+      <node ref="U6" pin="20" pinfunction="SPI_CS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U6-SPI_MISO-Pad26)" class="Default">
+      <node ref="U6" pin="26" pinfunction="SPI_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U6-SPI_MOSI-Pad27)" class="Default">
+      <node ref="U6" pin="27" pinfunction="SPI_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U7-~{FLG}-Pad3)" class="Default">
+      <node ref="U7" pin="3" pinfunction="~{FLG}" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U9-IO8-Pad12)" class="Default">
+      <node ref="U9" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U9-IO9-Pad17)" class="Default">
+      <node ref="U9" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(U9-IO14-Pad22)" class="Default">
+      <node ref="U9" pin="22" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(U9-IO21-Pad23)" class="Default">
+      <node ref="U9" pin="23" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(U9-IO35-Pad28)" class="Default">
+      <node ref="U9" pin="28" pinfunction="IO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U9-IO36-Pad29)" class="Default">
+      <node ref="U9" pin="29" pinfunction="IO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U9-IO37-Pad30)" class="Default">
+      <node ref="U9" pin="30" pinfunction="IO37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U9-IO47-Pad24)" class="Default">
+      <node ref="U9" pin="24" pinfunction="IO47" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U9-IO48-Pad25)" class="Default">
+      <node ref="U9" pin="25" pinfunction="IO48" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
