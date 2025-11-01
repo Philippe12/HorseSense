@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0f89def0-68e7-43da-9105-2c984e7a32a1")
 	(paper "A4")
+	(title_block
+		(title "HorseSense")
+		(date "2025-11-01")
+		(rev "1.0")
+		(company "Philippe12")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names

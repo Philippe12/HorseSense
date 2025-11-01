@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f18c17ba-b369-40a7-af71-e355ce3c82d0")
 	(paper "A4")
+	(title_block
+		(title "HorseSense")
+		(date "2025-11-01")
+		(rev "1.0")
+		(company "Philippe12")
+	)
 	(lib_symbols
 		(symbol "2025-09-12_09-49-28:MAX86141ENP+T"
 			(pin_names

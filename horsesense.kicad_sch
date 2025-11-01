@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f18e9cf6-8519-4493-9888-bebeac60f18c")
 	(paper "A4")
+	(title_block
+		(title "HorseSense")
+		(date "2025-11-01")
+		(rev "1.0")
+		(company "Philippe12")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -542,7 +548,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd737d0f-cf57-4b36-9514-4115abbbaa1d")
 		(property "Reference" "SYM1"
 			(at 134.62 116.84 0)
@@ -595,6 +600,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Version" "V1.0"
+			(at 134.62 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances

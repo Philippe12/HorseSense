@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3effaf2b-ecff-44cf-86aa-f439c4532a92")
 	(paper "A4")
+	(title_block
+		(title "HorseSense")
+		(date "2025-11-01")
+		(rev "1.0")
+		(company "Philippe12")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ25601"
 			(exclude_from_sim no)
