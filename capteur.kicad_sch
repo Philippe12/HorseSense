@@ -2030,6 +2030,12 @@
 		(uuid "17a73cb6-1078-479b-b2e1-16b14383558f")
 	)
 	(junction
+		(at 220.98 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b11b7ee-4161-4069-a930-ded783477e5b")
+	)
+	(junction
 		(at 140.97 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2080,10 +2086,6 @@
 	(no_connect
 		(at 125.73 62.23)
 		(uuid "bf780eb6-b479-4e38-a325-6420d105ef72")
-	)
-	(no_connect
-		(at 196.85 167.64)
-		(uuid "fd0271c0-5f2e-4ae6-9591-16a8f4d37175")
 	)
 	(wire
 		(pts
@@ -2207,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 116.84) (xy 251.46 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9e8569-10b1-4a5e-ae64-b4357726ed3e")
+	)
+	(wire
+		(pts
 			(xy 58.42 187.96) (xy 58.42 182.88)
 		)
 		(stroke
@@ -2264,6 +2276,16 @@
 			(type default)
 		)
 		(uuid "36b89351-bf52-4244-9342-74858bc93d64")
+	)
+	(wire
+		(pts
+			(xy 232.41 121.92) (xy 220.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d2f244-9a36-4af5-9e37-e79b60b1d152")
 	)
 	(wire
 		(pts
@@ -2397,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 110.49) (xy 210.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad04ffa-64ad-40b0-b89e-4d0e059506de")
+	)
+	(wire
+		(pts
 			(xy 109.22 111.76) (xy 109.22 109.22)
 		)
 		(stroke
@@ -2497,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 189.23 127)
+			(xy 189.23 110.49) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -2514,6 +2546,26 @@
 			(type default)
 		)
 		(uuid "87401057-89cf-4066-9117-40f521d0ae08")
+	)
+	(wire
+		(pts
+			(xy 220.98 118.11) (xy 220.98 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902125e1-9b8b-477a-9dc1-c2f71cfc92c3")
+	)
+	(wire
+		(pts
+			(xy 251.46 121.92) (xy 240.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908e258a-479b-4e6c-a01d-7918d911b21e")
 	)
 	(wire
 		(pts
@@ -2537,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 123.19) (xy 199.39 127)
+			(xy 199.39 110.49) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
@@ -2564,16 +2616,6 @@
 			(type default)
 		)
 		(uuid "9d6cabbb-6895-4f96-95fc-a95c17bc28b1")
-	)
-	(wire
-		(pts
-			(xy 220.98 121.92) (xy 220.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00c0f29-5369-474d-b0ae-b4739b2034d4")
 	)
 	(wire
 		(pts
@@ -2624,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "b63c516a-21e9-4613-8bf6-1cdae77461b7")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 220.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7d6a6f-0a28-44be-ba72-29ad64e953a8")
 	)
 	(wire
 		(pts
@@ -2754,16 +2806,6 @@
 			(type default)
 		)
 		(uuid "eec48379-a4e5-401d-9f7e-b400165c230d")
-	)
-	(wire
-		(pts
-			(xy 210.82 123.19) (xy 210.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5773f05-d987-440c-84b1-536667fd4033")
 	)
 	(wire
 		(pts
@@ -3347,6 +3389,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 210.82 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ae87e7-20a6-41ef-b6e1-46dadface9fd")
+		(property "Reference" "#PWR025"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_LED"
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6cdca1e-682c-4a9e-9879-c6627ea11c76")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 130.81 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3406,72 +3514,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 210.82 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e80968a-d6af-4d2a-8f0c-6e2a670ad4ec")
-		(property "Reference" "#PWR025"
-			(at 210.82 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 210.82 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e8fad4b-d025-4dc7-b6dd-94b59692243b")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3677,6 +3719,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 220.98 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aeb9912-8954-43e7-b115-b0e206949347")
+		(property "Reference" "#PWR085"
+			(at 220.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_LED"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f600f16-4758-4f92-9e36-8c94f0e3d1eb")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 58.42 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3743,7 +3851,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 189.23 123.19 0)
+		(at 189.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3752,7 +3860,7 @@
 		(fields_autoplaced yes)
 		(uuid "383c67c2-b181-482f-a59a-d977d450bc39")
 		(property "Reference" "#PWR023"
-			(at 189.23 127 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,8 +3868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 189.23 118.11 0)
+		(property "Value" "+3.3V_LED"
+			(at 189.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 123.19 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 123.19 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 123.19 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,72 +4591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 199.39 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56a1e2bf-f7bd-441f-b3e0-7348bfffd520")
-		(property "Reference" "#PWR024"
-			(at 199.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 199.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c143dffc-d77f-42d2-93e5-c9ea2313cdb9")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 162.56 0)
 		(unit 1)
@@ -5042,6 +5084,72 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 199.39 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f436769-45d5-4f4c-acbe-f294adf31be6")
+		(property "Reference" "#PWR024"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_LED"
+			(at 199.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 199.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bce96f8-bc0a-4b19-b250-1fab26d3be33")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5790,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 220.98 121.92 0)
+		(at 251.46 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5691,7 +5799,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68c113e-d284-4898-a69a-9b6e1615844e")
 		(property "Reference" "#PWR06"
-			(at 220.98 125.73 0)
+			(at 251.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5808,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 220.98 116.84 0)
+			(at 251.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 121.92 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 121.92 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.98 121.92 0)
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,6 +6698,83 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 236.22 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc16919d-63de-4a20-8152-05b19103db17")
+		(property "Reference" "JP2"
+			(at 236.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53bcbec1-bf91-47de-9a7e-25dd6d238194")
+		)
+		(pin "2"
+			(uuid "ba39aff3-cbc2-4431-8cce-ed705c142bea")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
