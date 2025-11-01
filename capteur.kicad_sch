@@ -5716,7 +5716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1µ"
 			(at 97.79 30.4799 0)
 			(effects
 				(font
@@ -5752,7 +5752,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CL21B103KBANNNC"
+		(property "manf#" "CL21B105KAFNFNE"
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -5770,7 +5770,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" " C1710"
+		(property "JLCPCB Part #" "C1712"
 			(at 93.98 29.21 0)
 			(effects
 				(font

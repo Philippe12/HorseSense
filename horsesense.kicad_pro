@@ -543,7 +543,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "horsesense.step",
       "svg": "",
       "vrml": ""
     },
@@ -576,7 +576,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -727,6 +727,18 @@
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Version",
+          "name": "Version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Enable",
+          "name": "Sim.Enable",
+          "show": false
         }
       ],
       "filter_string": "",

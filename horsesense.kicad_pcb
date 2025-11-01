@@ -3606,6 +3606,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C98987"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ad9ac34-333b-4850-a646-2f66dcb65d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ea6c1ed7-481e-430a-be6f-6eac0865153a/b1b49f4b-0e85-4266-a617-df2021c4f7d6")
 		(sheetname "/capteur/")
@@ -12329,6 +12341,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6b59308-f7fe-4814-980a-db9a2738a479")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C190802"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81e6e073-552c-46c8-a556-701d14ff8279")
 			(effects
 				(font
 					(size 1.27 1.27)
