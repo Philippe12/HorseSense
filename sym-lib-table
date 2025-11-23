@@ -5,4 +5,5 @@
   (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/lib/ICM-42670-P.kicad_sym")(options "")(descr ""))
   (lib (name "VEMD8080")(type "KiCad")(uri "${KIPRJMOD}/lib/VEMD8080.kicad_sym")(options "")(descr ""))
   (lib (name "BGA824N6E6329XTSA1")(type "KiCad")(uri "${KIPRJMOD}/lib/BGA824N6E6329XTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_project")(type "KiCad")(uri "${KIPRJMOD}/lib/LED_project.kicad_sym")(options "")(descr ""))
 )

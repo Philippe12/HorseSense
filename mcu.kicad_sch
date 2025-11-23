@@ -4480,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -4489,7 +4489,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -4760,7 +4760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EVQ-P7A01P"
+		(property "Value" "EVQP7A01P"
 			(at 45.72 63.4999 90)
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "EVQ-P7A01P"
+		(property "manf#" "EVQP7A01P"
 			(at 44.45 62.23 0)
 			(effects
 				(font
@@ -4895,7 +4895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 44.45 62.23 90)
 			(effects
 				(font
@@ -4904,7 +4904,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 44.45 62.23 90)
 			(effects
 				(font
@@ -5271,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -5280,7 +5280,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 76.2 91.44 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 31.75 54.61 90)
 			(effects
 				(font
@@ -5531,7 +5531,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 31.75 54.61 90)
 			(effects
 				(font
@@ -5682,15 +5682,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 218.44 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" ""
 			(at 218.44 130.81 0)
 			(effects
@@ -5710,6 +5701,15 @@
 			)
 		)
 		(property "manf#" "MX25L3233FM2I-08G"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -6178,7 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -6521,7 +6521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -6530,7 +6530,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -7288,7 +7288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -7475,7 +7475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -7926,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -7935,7 +7935,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -8113,7 +8113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -8122,7 +8122,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -8165,7 +8165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "EVQ-P7A01P"
+		(property "Value" "EVQP7A01P"
 			(at 72.39 67.3099 90)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 71.12 66.04 90)
 			(effects
 				(font
@@ -8619,7 +8619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 236.22 109.22 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 236.22 109.22 0)
 			(effects
 				(font
@@ -8872,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 160.02 33.02 0)
 			(effects
 				(font
@@ -8881,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 160.02 33.02 0)
 			(effects
 				(font

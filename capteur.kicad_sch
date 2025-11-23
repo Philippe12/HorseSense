@@ -603,189 +603,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ICM-42670-P:ICM-42670-P"
 			(pin_names
 				(offset 1.016)
@@ -1335,6 +1152,189 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_project:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2115,16 +2115,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 72.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d17abf-da47-46ec-9595-8d394e2e489d")
-	)
-	(wire
-		(pts
 			(xy 106.68 24.13) (xy 93.98 24.13)
 		)
 		(stroke
@@ -2145,16 +2135,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 101.6) (xy 82.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dec9a82-e9b8-4f6f-9da2-1239aea59cb1")
-	)
-	(wire
-		(pts
 			(xy 81.28 57.15) (xy 92.71 57.15)
 		)
 		(stroke
@@ -2172,6 +2152,16 @@
 			(type default)
 		)
 		(uuid "0f3fc8dd-71f8-4908-8c83-4a786d3f6bba")
+	)
+	(wire
+		(pts
+			(xy 140.97 97.79) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120a4845-ed62-4b5d-b413-ced116040015")
 	)
 	(wire
 		(pts
@@ -2205,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 189.23 135.89)
+			(xy 189.23 127) (xy 189.23 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 199.39 138.43)
+			(xy 199.39 127) (xy 199.39 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 210.82 127)
+			(xy 210.82 110.49) (xy 210.82 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 189.23 127)
+			(xy 189.23 110.49) (xy 189.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 110.49) (xy 199.39 127)
+			(xy 199.39 110.49) (xy 199.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2685,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 107.95) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfeecab3-92c1-468f-88e7-9694f199eca6")
+	)
+	(wire
+		(pts
 			(xy 81.28 59.69) (xy 92.71 59.69)
 		)
 		(stroke
@@ -2722,16 +2722,6 @@
 			(type default)
 		)
 		(uuid "cde12dd9-bfaa-43cd-833a-6d8558aff064")
-	)
-	(wire
-		(pts
-			(xy 82.55 111.76) (xy 82.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa9f922-1678-47a0-a3b9-107979c2e4ec")
 	)
 	(wire
 		(pts
@@ -2785,16 +2775,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 111.76) (xy 72.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8196013-7210-41da-83f5-21b778a9a0a0")
-	)
-	(wire
-		(pts
 			(xy 144.78 160.02) (xy 144.78 170.18)
 		)
 		(stroke
@@ -2815,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 134.62) (xy 210.82 140.97)
+			(xy 210.82 127) (xy 210.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3124,72 +3104,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05ab2653-1c07-4918-9dd3-c2505dcbe620")
-		(property "Reference" "#PWR019"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "874a2a70-7879-4bbb-bafd-1942720568b3")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3600,7 +3514,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2355d695-062d-465d-bc67-aca035d52469")
+		(uuid "1fd3047c-10a0-470f-b280-eb24c4132248")
 		(property "Reference" "#PWR018"
 			(at 104.14 106.68 0)
 			(effects
@@ -3610,7 +3524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_LED"
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -3646,7 +3560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb7b7a6a-5ba5-4c4b-b776-ee49282a0c3f")
+			(uuid "cf62f266-f0e4-413c-a5ae-b8c4440523a4")
 		)
 		(instances
 			(project "horsesense"
@@ -4107,7 +4021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 167.64 152.4 90)
 			(effects
 				(font
@@ -4116,7 +4030,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 167.64 152.4 90)
 			(effects
 				(font
@@ -4358,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -4367,7 +4281,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -4545,7 +4459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -4554,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -4732,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -4741,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 55.88 128.27 0)
 			(effects
 				(font
@@ -4919,7 +4833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -4928,7 +4842,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -4953,32 +4867,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 199.39 130.81 90)
+		(lib_id "LED_project:LED")
+		(at 189.23 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "50589638-5170-4cce-8503-9e195e71cd57")
-		(property "Reference" "D2"
-			(at 193.04 132.3975 0)
+		(uuid "4ef39bd9-6aff-411f-ae0d-693ed8a46015")
+		(property "Reference" "D1"
+			(at 193.04 123.5074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 196.342 130.556 0)
+		(property "Value" "JNJ-LTJG0106W15"
+			(at 186.182 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Local:CTDBLP31126C5D56J6U620R18"
-			(at 199.39 130.81 0)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 130.81 0)
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,7 +4912,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 199.39 130.81 0)
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +4921,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 130.81 0)
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,8 +4929,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 199.39 130.81 0)
+		(property "JLCPCB Part #" "C7500147"
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,98 +4938,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5344735"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 199.39 130.81 0)
+		(property "manf#" "JNJ-LTJG0106W15"
+			(at 189.23 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,15 +4948,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b97e3fa9-8536-4f71-a554-093105c5240d")
+			(uuid "772ccd1d-1321-4d0d-a705-30553346c2da")
 		)
 		(pin "1"
-			(uuid "3ef46afa-dbfe-4c42-a3df-245103ea4b0c")
+			(uuid "4b394f39-9a3a-4e31-bafe-3972144a1b81")
 		)
 		(instances
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5197,256 +5023,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 72.39 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6295cf05-9409-43d1-af8e-d62764aa1eb3")
-		(property "Reference" "#PWR022"
-			(at 72.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 72.39 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 72.39 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ea720f9-b851-4f67-b3d2-5dac00369d0d")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 189.23 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6361e5c4-9d75-40d1-a85c-691be390b7b8")
-		(property "Reference" "D1"
-			(at 182.88 132.3975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 186.182 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Local:CTDBLP31126C5D56J6U620R18"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5344735"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fffeddef-1d1e-42b8-874d-0016f9f3aba4")
-		)
-		(pin "1"
-			(uuid "d0ca7ee9-1680-4ed1-9240-3eeb7a8a82c2")
-		)
-		(instances
-			(project ""
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -5605,7 +5181,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -5882,6 +5458,280 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_project:LED")
+		(at 210.82 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7179cd07-9f90-4c13-aec7-a4ade5524d72")
+		(property "Reference" "D3"
+			(at 214.63 123.5074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JNJ-LTJG0106W15"
+			(at 207.772 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7500147"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "JNJ-LTJG0106W15"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c2d88f9-6c29-451a-af0c-8404c8bf5f0c")
+		)
+		(pin "1"
+			(uuid "786eb2ca-f1ce-43c7-b30f-89fa67c49e98")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f4e4c7-bebf-4026-a726-b2a0d16ef1a2")
+		(property "Reference" "C6"
+			(at 144.78 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 141.9352 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CL21B104KBCNNNC"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "gp" " CC1206KKX7R7BB105"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1711"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1a97b49-33cd-4992-b05f-70cf283553c4")
+		)
+		(pin "1"
+			(uuid "13d914a9-2dc7-46e6-915d-ed80f1e78871")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 80.01 0)
 		(unit 1)
@@ -6015,6 +5865,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 140.97 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d98937-b80d-4468-b228-156250fd07b6")
+		(property "Reference" "#PWR019"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf3a7655-7057-4454-88e2-cf9214fceffa")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6074,190 +5990,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 210.82 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dcd9ddf-73d2-4062-8f2b-f6c2de6fd1bc")
-		(property "Reference" "D3"
-			(at 204.47 132.3975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 207.772 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Local:CTDBLP31126C5D56J6U620R18"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CT DBLP31.12-6C5D-56-J6U6-20-R18"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C5344735"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2394256-bf75-49bd-9cc9-b881586c5b77")
-		)
-		(pin "1"
-			(uuid "55928810-d892-4968-b85c-00fd5ec9ca75")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6417,7 +6149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -6426,7 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 220.98 130.81 0)
 			(effects
 				(font
@@ -6636,7 +6368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 144.78 152.4 90)
 			(effects
 				(font
@@ -6645,7 +6377,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 144.78 152.4 90)
 			(effects
 				(font
@@ -6841,7 +6573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -6850,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 93.98 29.21 0)
 			(effects
 				(font
@@ -6941,72 +6673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 82.55 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba9ae268-7dd1-4150-a673-93e752b28f4c")
-		(property "Reference" "#PWR021"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 82.55 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dc4515c-f908-4d41-91e2-fc63aa6b976c")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 162.56 0)
 		(unit 1)
@@ -7067,72 +6733,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd2b30c6-6d61-4e86-8a01-34719875f9b8")
-		(property "Reference" "#PWR020"
-			(at 72.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84d82f29-9acd-4436-9682-63cd352d8eca")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7205,193 +6805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 72.39 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4fab53b-f704-4724-84a4-80ce2cf812f5")
-		(property "Reference" "C7"
-			(at 76.2 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22µ"
-			(at 76.2 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 73.3552 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "GRM21BZ71A226ME15L"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "gp" " CC1206KKX7R7BB105"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C907991"
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 72.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78a10d6a-5c8b-462c-945e-3702d24dfaaa")
-		)
-		(pin "1"
-			(uuid "faf707f8-d041-472b-a3e9-fe1484f04e06")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 109.22 0)
 		(unit 1)
@@ -7452,193 +6865,6 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 82.55 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4229f4f-69b0-4858-ad0d-7fe4c6c62333")
-		(property "Reference" "C6"
-			(at 86.36 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22µ"
-			(at 86.36 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 83.5152 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "GRM21BZ71A226ME15L"
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "gp" " CC1206KKX7R7BB105"
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C907991"
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 82.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8dc33a8a-38ad-4563-8085-22b6300a3720")
-		)
-		(pin "1"
-			(uuid "e1bc34b8-8638-4059-8af6-ada9aae13025")
-		)
-		(instances
-			(project "horsesense"
-				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7827,7 +7053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 109.22 58.42 0)
 			(effects
 				(font
@@ -7836,7 +7062,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 109.22 58.42 0)
 			(effects
 				(font
@@ -7957,6 +7183,102 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_project:LED")
+		(at 199.39 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3b4d231-6838-4333-9fd5-5a1f95b9791d")
+		(property "Reference" "D2"
+			(at 203.2 123.5074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JNJ-LTJG0106W15"
+			(at 196.342 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C7500147"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "JNJ-LTJG0106W15"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a916cb46-f215-4d88-947d-f36b83bc333c")
+		)
+		(pin "1"
+			(uuid "993d5931-38f6-4d26-9b52-df518f7a994a")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8116,7 +7438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -8125,7 +7447,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -8144,6 +7466,72 @@
 			(project "horsesense"
 				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 140.97 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f990c318-c63e-467f-83eb-027b94cf0017")
+		(property "Reference" "#PWR020"
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 140.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "255e9c4b-a128-47a9-bb05-9d2fd3eab2fc")
+		)
+		(instances
+			(project "horsesense"
+				(path "/f18e9cf6-8519-4493-9888-bebeac60f18c/ea6c1ed7-481e-430a-be6f-6eac0865153a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8283,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 236.22 121.92 0)
 			(effects
 				(font
@@ -8292,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 236.22 121.92 0)
 			(effects
 				(font

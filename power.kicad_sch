@@ -3979,7 +3979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -4430,7 +4430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -4439,7 +4439,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C317272"
+		(property "JLCPCB Part #" "C27834"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -4527,7 +4527,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RK73H2ATTD5101F"
+		(property "manf#" "0805W8F5101T5E"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -4608,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -4617,7 +4617,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 182.88 58.42 0)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 182.88 58.42 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 119.38 144.78 0)
 			(effects
 				(font
@@ -5501,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 119.38 144.78 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -5811,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -5987,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 110.49 149.86 0)
 			(effects
 				(font
@@ -6478,7 +6478,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 110.49 149.86 0)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C317272"
+		(property "JLCPCB Part #" "C27834"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RK73H2ATTD5101F"
+		(property "manf#" "0805W8F5101T5E"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6647,7 +6647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6957,7 +6957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -6966,7 +6966,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "LQM21PH1R0NGCD"
+		(property "manf#" "MLP2012S1R0MT0S1"
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7118,7 +7118,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C484262"
+		(property "JLCPCB Part #" "C383371"
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7199,7 +7199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7208,7 +7208,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7443,7 +7443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -7452,7 +7452,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -7815,7 +7815,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -7975,7 +7975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -7984,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -8285,7 +8285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -8294,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -8468,7 +8468,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-120"
+		(property "Value" "1054500101"
 			(at 53.34 27.94 0)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "USB4105-GF-A-120"
+		(property "manf#" "1054500101"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8512,7 +8512,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5184243"
+		(property "JLCPCB Part #" "C134092"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8602,7 +8602,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8810,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -8819,7 +8819,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -8988,7 +8988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 66.04 157.48 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 66.04 157.48 0)
 			(effects
 				(font

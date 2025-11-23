@@ -2512,7 +2512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -2687,7 +2687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 224.79 99.06 90)
 			(effects
 				(font
@@ -2696,7 +2696,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 224.79 99.06 90)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -3259,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -3268,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -3426,15 +3426,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 196.85 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" ""
 			(at 196.85 99.06 90)
 			(effects
@@ -3445,6 +3436,15 @@
 			)
 		)
 		(property "manf#" "LQG18HN6N8J00D"
+			(at 196.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 196.85 99.06 90)
 			(effects
 				(font
@@ -3688,7 +3688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 146.05 53.34 0)
 			(effects
 				(font
@@ -3697,7 +3697,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 146.05 53.34 0)
 			(effects
 				(font
@@ -3856,6 +3856,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -4031,7 +4040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
+		(property "SnapEDA_Link" ""
 			(at 212.09 99.06 90)
 			(effects
 				(font
@@ -4040,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" ""
+		(property "Sim.Enable" ""
 			(at 212.09 99.06 90)
 			(effects
 				(font
@@ -4308,15 +4317,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 139.7 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" ""
 			(at 139.7 96.52 0)
 			(effects
@@ -4336,6 +4336,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3191827"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -4697,15 +4706,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" ""
 			(at 82.55 102.87 0)
 			(effects
@@ -4725,6 +4725,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C6898733"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 82.55 102.87 0)
 			(effects
 				(font
