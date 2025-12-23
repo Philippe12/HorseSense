@@ -4914,6 +4914,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "50d27416-dfc2-43f7-b806-45613dcc40f5")
 		)
@@ -5320,6 +5329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 44.45 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a79be5e8-e4f5-4afe-aee1-8ddde4302f0c")
 		)
@@ -5687,6 +5705,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc6a5a64-75fd-48e2-91f1-1724294bce22")
 		)
@@ -5929,6 +5956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc28a1bd-1464-4b3f-a678-8c5ce7bdb47a")
 		)
@@ -6090,6 +6126,15 @@
 			)
 		)
 		(property "manf#" "MX25L3233FM2I-08G"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -6615,6 +6660,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcd9b3e7-45e5-4e20-af37-eb0264d0113e")
 		)
@@ -6785,6 +6839,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -7136,6 +7199,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ae3a592-9755-41a7-82ec-0d187767b1ef")
 		)
@@ -7369,6 +7441,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -7885,6 +7966,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c570776-4af2-419a-adb2-93fb056639ef")
 		)
@@ -8055,6 +8145,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 170.18 33.02 0)
 			(effects
 				(font
@@ -8571,6 +8670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c4525fc-dfad-4f38-8c6a-8acb7608f2df")
 		)
@@ -8741,6 +8849,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -8927,6 +9044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 71.12 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d88bb69-9ef1-43bc-bd7b-f63cb438003f")
 		)
@@ -9100,6 +9226,15 @@
 			)
 		)
 		(property "JLCPCB Part #" "C509959"
+			(at 129.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 129.54 179.07 0)
 			(effects
 				(font
@@ -9355,6 +9490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 236.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0742785f-af01-4e04-8c05-ae954930a63a")
 		)
@@ -9591,6 +9735,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 160.02 33.02 0)
 			(effects
 				(font

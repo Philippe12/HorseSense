@@ -3535,7 +3535,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C295747"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3678,11 +3678,24 @@
 				)
 			)
 		)
+		(property "manf#" "S2B-PH-SM4-TB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d0da6b7-8f3d-494d-bc62-014376284109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6fcaec40-379c-49eb-807f-b8caccf6fb22/bfdba019-fb09-4fa8-935a-58cd6fcec569")
 		(sheetname "/power/")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -4.06 -3.31)
 			(end -3.04 -3.31)
@@ -4089,15 +4102,15 @@
 			(uuid "f896f624-3856-4065-9825-78bee994050c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KIPRJMOD}/lib/S2B-PH-SM4-TB_LF__SN_.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -4.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
