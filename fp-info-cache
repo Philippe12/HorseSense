@@ -1,4 +1,4 @@
-26207282837527341
+26210814118039331
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68851,6 +68851,20 @@ LED
 0
 3
 2
+Local
+QFN50P300X300X80-17N
+
+
+0
+17
+17
+Local
+SFH7016
+
+
+0
+6
+6
 Local
 XCVR_LC76G
 

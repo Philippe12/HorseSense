@@ -2521,15 +2521,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f78ea7f7-bb0f-4b00-a140-e1b3877d07d2")
 		)
@@ -2688,15 +2679,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.79 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 224.79 99.06 90)
 			(effects
 				(font
@@ -3081,15 +3063,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 134.62 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7ca99df2-bc36-4535-bc2b-336a823a8313")
 		)
@@ -3268,15 +3241,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 157.48 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b9883475-1a80-473f-8359-8e342087f41a")
 		)
@@ -3436,15 +3400,6 @@
 			)
 		)
 		(property "manf#" "LQG18HN6N8J00D"
-			(at 196.85 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 196.85 99.06 90)
 			(effects
 				(font
@@ -3697,15 +3652,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 146.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5e02d85c-2f9b-4a50-b8f3-6366dc40eeeb")
 		)
@@ -3856,15 +3802,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 120.65 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -4041,15 +3978,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 212.09 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 212.09 99.06 90)
 			(effects
 				(font
@@ -4336,15 +4264,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C3191827"
-			(at 139.7 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -4725,15 +4644,6 @@
 			)
 		)
 		(property "JLCPCB Part #" "C6898733"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 82.55 102.87 0)
 			(effects
 				(font

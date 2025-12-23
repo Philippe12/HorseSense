@@ -2449,12 +2449,6 @@
 		(uuid "7d81373e-8275-445e-ac59-6216971344cc")
 	)
 	(junction
-		(at 120.65 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87177c75-f62c-4394-8032-6d17491d39a0")
-	)
-	(junction
 		(at 105.41 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2467,13 +2461,19 @@
 		(uuid "8e0b4b78-3eaf-481f-9d63-dbf4b302d847")
 	)
 	(junction
+		(at 120.65 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "915fbfe1-c59d-4d69-a46a-a07c43f49622")
+	)
+	(junction
 		(at 190.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b47cc7-e44b-4245-a789-a87b5fdbe88b")
 	)
 	(junction
-		(at 132.08 115.57)
+		(at 132.08 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc82e3a3-2167-404e-8355-f6d61aa65cb4")
@@ -2726,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 125.73) (xy 132.08 128.27)
+			(xy 132.08 118.11) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 137.16 115.57)
+			(xy 132.08 107.95) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 120.65) (xy 120.65 115.57)
+			(xy 120.65 107.95) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3016,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3075bf-f777-418c-8148-f346dbed60ca")
-	)
-	(wire
-		(pts
 			(xy 182.88 50.8) (xy 182.88 54.61)
 		)
 		(stroke
@@ -3106,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 132.08 115.57)
+			(xy 120.65 107.95) (xy 132.08 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 132.08 118.11)
+			(xy 132.08 107.95) (xy 132.08 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 137.16 115.57)
+			(xy 137.16 101.6) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3988,15 +3978,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "b86d1b1d-d827-4d96-8db6-fb8ca0b52eae")
 		)
@@ -4023,7 +4004,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 137.16 109.22 0)
+		(at 137.16 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4032,7 +4013,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dfd7e4a-1680-4915-a2da-f2486d24fdc5")
 		(property "Reference" "#PWR041"
-			(at 137.16 113.03 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4022,7 @@
 			)
 		)
 		(property "Value" "Vsys"
-			(at 137.16 104.14 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 109.22 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 137.16 109.22 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 128.27 0)
+		(at 132.08 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +4211,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b2d3d1a-2809-4a9b-a10c-b3770aaa2b25")
 		(property "Reference" "#PWR040"
-			(at 132.08 134.62 0)
+			(at 132.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 133.35 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 128.27 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 128.27 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 128.27 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4268,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 121.92 0)
+		(at 132.08 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4296,7 +4277,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ea9ac17-d43c-4797-b901-3025018d5949")
 		(property "Reference" "C12"
-			(at 135.89 120.6499 0)
+			(at 135.89 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4286,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 135.89 123.1899 0)
+			(at 135.89 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 133.0452 125.73 0)
+			(at 133.0452 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4313,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4322,7 @@
 			)
 		)
 		(property "manf#" "CL21B106KPQNNNE"
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4331,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C32635"
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4340,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4349,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4358,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4367,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4376,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4385,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4394,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4403,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,16 +4412,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 132.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
-			(at 132.08 121.92 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,15 +4581,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -5125,15 +5088,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 182.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2d10f4ed-bb7d-4f0e-a560-26fefd06b4e3")
 		)
@@ -5501,15 +5455,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 119.38 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "08ba63a4-ac69-4b03-aee0-9415ab830e0f")
 		)
@@ -5811,15 +5756,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "201d03dd-7b0a-4b39-986b-d8ea8719d975")
 		)
@@ -5979,15 +5915,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 87.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -6234,15 +6161,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "74c6626d-14f6-4b41-bd4c-11e1f73948ef")
 		)
@@ -6478,15 +6396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "43593e4e-f60c-45ab-80b9-226f5d67f9e2")
 		)
@@ -6648,15 +6557,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6966,15 +6866,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb24472c-4dd4-4bf4-8307-d2e4c09a09e3")
 		)
@@ -7200,15 +7091,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 110.49 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7452,15 +7334,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5eef7ac5-0991-4d90-ba77-8dc46110f4f1")
 		)
@@ -7620,15 +7493,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 208.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -7815,15 +7679,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 48.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "66f7cb18-16a5-49d4-8562-2f7b18614cef")
 		)
@@ -7976,15 +7831,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -8294,15 +8140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 227.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dab9ea9a-8ed7-4f35-b0e7-73004e2a72c6")
 		)
@@ -8602,15 +8439,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "S1"
 			(uuid "cd9e16d7-901a-4f39-a8f4-122ccbec3670")
 		)
@@ -8819,15 +8647,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 104.14 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3e2320b7-7333-45a7-a035-699cacf80b9b")
 		)
@@ -8989,15 +8808,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 66.04 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 66.04 157.48 0)
 			(effects
 				(font
