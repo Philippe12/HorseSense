@@ -2745,7 +2745,7 @@
 			(uuid "2f9942a1-a502-4d4b-a47c-e5aa10d87a41")
 		)
 		(embedded_fonts no)
-		(model "BGA824N6E6329XTSA1.stp"
+		(model "${KIPRJMOD}/lib/BGA824N6E6329XTSA1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18122,7 +18122,7 @@
 		(property "Reference" "U6"
 			(at 0.1025 2.925 90)
 			(layer "F.SilkS")
-			(uuid "c87b1c6b-835d-48f4-a5b7-0d1db6ff6b31")
+			(uuid "eb14f72f-3555-47ec-a80f-212fef9d67d4")
 			(effects
 				(font
 					(size 1 1)
@@ -18134,7 +18134,7 @@
 			(at 10.36 3.74 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ba5a5b4-b296-4d14-ba3a-053e39b15151")
+			(uuid "0174e9ac-0e18-4a8b-bb9a-aa123c360c86")
 			(effects
 				(font
 					(size 1 1)
@@ -18146,7 +18146,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6110cb4e-1008-4bae-b455-c7b89e410234")
+			(uuid "39f4a164-421d-4d3e-a5ef-965e80986808")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18158,7 +18158,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c5bd8db-6293-41b8-85b9-8ab7629a0491")
+			(uuid "c6c19ff7-edd7-48f3-80cc-cd7597ee192c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,6 +18707,17 @@
 			(uuid "602d4915-b086-499d-8a2c-e4107ba45325")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/MAX4740ETE+.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_EVQP7A"
 		(layer "F.Cu")
@@ -25429,7 +25440,7 @@
 			(uuid "eb6420dd-aff2-48b2-97e8-01786430941a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-416.step"
+		(model "${KIPRJMOD}/lib/RE1C002UNTCL.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25437,7 +25448,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -28537,7 +28548,7 @@
 			(effects
 				(font
 					(size 0.24 0.24)
-					(thickness 0.15)
+					(thickness 0.06)
 				)
 				(justify mirror)
 			)
@@ -28785,6 +28796,17 @@
 			(uuid "686045cf-cc9e-4404-ac48-eb40ba29db9c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/SFH_7016.stp"
+			(offset
+				(xyz 0 0 0.54)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Local:CTDBLP31126C5D56J6U620R18"
 		(layer "B.Cu")
@@ -29086,15 +29108,15 @@
 			(uuid "bca4b006-94ea-4484-b72c-f7b452950805")
 		)
 		(embedded_fonts no)
-		(model "CT_DBLP31.12-6C5D-56-J6U6-20-R18.stp"
+		(model "${KIPRJMOD}/lib/CT_DBLP31.12-6C5D-56-J6U6-20-R18.stp"
 			(offset
-				(xyz 0 0 0.3000000074)
+				(xyz 0 0 0.3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 -90)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -29850,7 +29872,7 @@
 			(effects
 				(font
 					(size 0.24 0.24)
-					(thickness 0.15)
+					(thickness 0.06)
 				)
 				(justify mirror)
 			)
@@ -30098,6 +30120,17 @@
 			(uuid "4c0a2482-c9db-47db-8bfa-b3298f07cf24")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/SFH_7016.stp"
+			(offset
+				(xyz 0 0 0.57)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(gr_rect
 		(start 139.69 84.02)
