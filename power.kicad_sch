@@ -2746,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 71.12) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d2b128-6a90-4cae-a1f3-dc5ddab2b019")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 182.88 50.8)
 		)
 		(stroke
@@ -2963,16 +2973,6 @@
 			(type default)
 		)
 		(uuid "75984dfa-0c7b-4a19-9be7-e69a39e210fb")
-	)
-	(wire
-		(pts
-			(xy 53.34 71.12) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "765b459e-ee30-4fb6-9507-6282245f9fc5")
 	)
 	(wire
 		(pts
@@ -3978,15 +3978,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "b86d1b1d-d827-4d96-8db6-fb8ca0b52eae")
 		)
@@ -4429,15 +4420,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2869d6a8-7e36-4be6-a57a-ad499520bc5a")
 		)
@@ -4599,15 +4581,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 95.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -5115,15 +5088,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 182.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2d10f4ed-bb7d-4f0e-a560-26fefd06b4e3")
 		)
@@ -5491,15 +5455,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 119.38 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "08ba63a4-ac69-4b03-aee0-9415ab830e0f")
 		)
@@ -5801,15 +5756,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "201d03dd-7b0a-4b39-986b-d8ea8719d975")
 		)
@@ -5969,15 +5915,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 87.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -6224,15 +6161,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 228.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "74c6626d-14f6-4b41-bd4c-11e1f73948ef")
 		)
@@ -6468,15 +6396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "43593e4e-f60c-45ab-80b9-226f5d67f9e2")
 		)
@@ -6638,15 +6557,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 104.14 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -6956,15 +6866,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 105.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb24472c-4dd4-4bf4-8307-d2e4c09a09e3")
 		)
@@ -7190,15 +7091,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 110.49 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 110.49 107.95 90)
 			(effects
 				(font
@@ -7442,15 +7334,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5eef7ac5-0991-4d90-ba77-8dc46110f4f1")
 		)
@@ -7610,15 +7493,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 208.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 208.28 53.34 0)
 			(effects
 				(font
@@ -7805,15 +7679,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 48.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "66f7cb18-16a5-49d4-8562-2f7b18614cef")
 		)
@@ -7966,15 +7831,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 139.7 135.89 0)
 			(effects
 				(font
@@ -8293,15 +8149,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 227.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dab9ea9a-8ed7-4f35-b0e7-73004e2a72c6")
 		)
@@ -8467,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Value" "1054500101"
+		(property "Value" "GT-USB-7025"
 			(at 53.34 27.94 0)
 			(effects
 				(font
@@ -8502,7 +8349,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "1054500101"
+		(property "manf#" "12402012E212A"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8511,7 +8358,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C134092"
+		(property "JLCPCB Part #" "C27636760"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8593,15 +8440,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -8818,15 +8656,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" ""
-			(at 104.14 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "3e2320b7-7333-45a7-a035-699cacf80b9b")
 		)
@@ -8988,15 +8817,6 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 66.04 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" ""
 			(at 66.04 157.48 0)
 			(effects
 				(font
